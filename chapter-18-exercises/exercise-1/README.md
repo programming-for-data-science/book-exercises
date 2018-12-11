@@ -8,7 +8,7 @@ You will need to create and work with multiple files for this exercise, followin
 ## 1. Wrangle Data
 You will need to implement a script to download the relevant movie review from the NY Times. Follow the instructions in the provided `exercise.R` file. 
 
-_This wrangling is the same as that used in Chapter 11 exercise-2; you can and should reuse that content._
+_This wrangling is the same as that used in Chapter 14 exercise-2; you can and should reuse that content._
 
 Note that you will need to register for an API key at **<https://developer.nytimes.com/signup>**. Save this in a file `apikey.R`, and be sure to modify your `.gitignore` file to list your `apikey.R` file as one to not be committed.
 
