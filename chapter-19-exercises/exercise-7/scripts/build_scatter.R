@@ -13,7 +13,7 @@ build_scatter <- function(data,  search = "", xvar = "population", yvar = "votes
     filter(grepl(search, state))
   
   # Plot data
-  plot_ly(x = data[, xvar],
+  p <- plot_ly(x = data[, xvar],
             y = data[, yvar], 
             mode="markers", 
             marker = list(
@@ -22,6 +22,6 @@ build_scatter <- function(data,  search = "", xvar = "population", yvar = "votes
             )) %>% 
     layout(xaxis = list(range = c(0, xmax), title = xvar), 
            yaxis = list(range = c(0, ymax), title = yvar)
-    ) %>% 
-    return()
+    )
+  return(p)
 }

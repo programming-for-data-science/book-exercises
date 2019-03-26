@@ -1,4 +1,4 @@
-# Exercise 4: complex Shiny UI layouts
+# Exercise 5: complex Shiny UI layouts
 
 # Load libraries so they are available
 library("shiny")

@@ -1,4 +1,4 @@
-# Exercise 4: complex Shiny UI layouts
+# Exercise 6: interactive mapping
 
 # Load libraries so they are available
 library("shiny")
@@ -10,3 +10,4 @@ library("shiny")
 # Run the app through this file.
 
 # Create a new `shinyApp()` using the loaded `ui` and `server` variables
+
