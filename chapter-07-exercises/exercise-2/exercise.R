@@ -45,4 +45,4 @@ large <- phone_numbers[phone_numbers > 5]
 phone_numbers[phone_numbers > 5] <- 5
 
 # Replace every odd-numbered value in `phone_numbers` with the number 0
-phone_numbers[c(TRUE, FALSE)] <- 0
+phone_numbers[phone_numbers %% 2 == 1] <- 0

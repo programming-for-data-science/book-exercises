@@ -3,5 +3,5 @@ In this exercise, you'll build a simple Shiny application that can communicate b
 
 ![final product scatterplot](imgs/final-plot.png)
 
-To complete the exercise, open the `exercise-2/app.R` file in RStudio, and follow the instructions there.
+To complete the exercise, open the `app.R` file in RStudio, and follow the instructions there.
 
