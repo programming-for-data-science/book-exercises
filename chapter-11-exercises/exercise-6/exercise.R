@@ -25,5 +25,5 @@ smallest_airline_delay <- flights %>%
   group_by(carrier) %>%
   summarise(avg_delay = mean(arr_delay, na.rm = TRUE)) %>%
   left_join(airlines, by = "carrier") %>%
-  filter(avg_delay == max(avg_delay, na.rm = TRUE))
+  filter(avg_delay == min(avg_delay, na.rm = TRUE))
 smallest_airline_delay
